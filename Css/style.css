@@ -11,7 +11,7 @@ font-family:OpenSans,Arial,sans-serif;
 }
 
 p,li {
-font-size:13px;
+font-size:15px;
 line-height:21px;
 -webkit-font-smoothing:antialiased;
 }
@@ -29,47 +29,10 @@ p.center {
 text-align:center;
 }
 
-.hero {
-background:url(jyJZOfHEKqkupP6kzdKLjnXVSlypeUdsagLComhwH6Y.jpeg) repeat center center;
--webkit-background-size:cover;
--moz-background-size:cover;
-background-size:cover;
-border-bottom:1px solid #222;
-padding:30px 0 60px;
-}
 
-.hero .marketing {
-margin:30px -20px;
-}
-
-.hero .marketing h1,.hero .marketing h2,.hero .marketing h3,.hero .marketing h4,.hero .marketing h5,.hero .marketing h6 {
-color:#fff;
-text-align:center;
-display:block;
-margin:30px auto;
-}
-
-.hero .marketing h1.headline {
-color:#fff;
-font-family:OpenSans,Arial,sans-serif;
-letter-spacing:2px;
-text-transform:uppercase;
-font-size:46px;
-line-height:62px;
-}
-
-.hero .marketing p.call-to-action {
-text-align:center;
-margin-top:60px;
-float:none;
-}
-
-.hero .marketing p.call-to-action a.btn {
-margin-right:20px;
-}
-
-.hero div.row {
-margin-bottom:20px;
+.header .headline {
+    margin-top: -30px !important;
+    margin-bottom: 30px !important;;
 }
 
 .block {
@@ -96,7 +59,7 @@ margin:0 auto;
 .block p.headline-caption {
 text-align:center;
 display:block;
-font-size:13px;
+font-size:15px;
 line-height:21px;
 color:#3c3c3c;
 margin:10px auto;
@@ -213,7 +176,7 @@ box-shadow:none;
 -moz-border-radius:1px;
 border-radius:1px;
 font-family:OpenSansBold,Arial,sans-serif;
-font-size:13px;
+font-size:15px;
 line-height:21px;
 padding:7px 14px;
 }
@@ -334,7 +297,7 @@ font-family:OpenSans,Arial,sans-serif;
 }
 
 .carousel .item>p,.carousel-caption p {
-font-size:13px;
+font-size:15px;
 line-height:21px;
 text-shadow:none;
 color:#222;
@@ -343,13 +306,13 @@ text-align:center;
 
 label,input,button,select,textarea {
 font-family:OpenSans,Arial,sans-serif;
-font-size:13px;
+font-size:15px;
 line-height:21px;
 }
 
 select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
 font-family:OpenSans,Arial,sans-serif;
-font-size:13px;
+font-size:15px;
 color:#3c3c3c;
 -webkit-border-radius:0;
 -moz-border-radius:0;
@@ -359,7 +322,7 @@ height:26px;
 
 input,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],select,textarea {
 font-family:OpenSans,Arial,sans-serif;
-font-size:13px;
+font-size:15px;
 -webkit-box-shadow:none;
 -moz-box-shadow:none;
 box-shadow:none;
@@ -376,7 +339,7 @@ border-color:#999;
 
 input,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],input[type=file],textarea,select {
 font-family:OpenSans,Arial,sans-serif;
-font-size:13px;
+font-size:15px;
 height:26px;
 margin-bottom:0;
 }
@@ -468,7 +431,7 @@ content:"\e00c";
 }
 
 body {
-font-size:13px;
+font-size:15px;
 }
 
 #hide-image {
@@ -592,5 +555,7 @@ height:0;
 
 #Customheader > img {
 	float: left;
-		opacity:1.2;
+	opacity:1.2;
 }
+}
+
