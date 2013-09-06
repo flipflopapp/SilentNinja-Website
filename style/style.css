@@ -29,14 +29,23 @@ p.center {
 text-align:center;
 }
 
-.header .headline {
-    margin-top: -30px !important;
-    margin-bottom: 30px !important;;
+header {
+    margin-top: 20px;
+    margin-left: 30px;
+    position: fixed;
+}
+
+header h2 {
+    font-family:vodafone;
 }
 
 .block {
 border-bottom:1px dashed #000;
 padding:60px 0;
+}
+
+.first {
+    padding-top: 80px !important;
 }
 
 .block h1,.block h2,.block h3,.block h4,.block h5,.block h6 {
@@ -72,6 +81,7 @@ margin-bottom:50px;
 .block.alt {
 }
 
+<<<<<<< HEAD
 .block.maps {
 margin-bottom:-6px;
 padding:0;
@@ -160,6 +170,8 @@ box-shadow:none;
 filter:none;
 }
 
+=======
+>>>>>>> 3d60be7b6bf48d3fce843c4124cdab4e39d3b30f
 .btn {
 border:none;
 background:#d8e0c6;
@@ -449,19 +461,6 @@ display:inline-block;
 margin:10px 25px 10px 0;
 }
 
-.hero div.row:last-of-type,.block div.row:last-of-type,.carousel {
-margin-bottom:0;
-}
-
-.hero .navbar .nav .active a,.hero .navbar .nav .active a:hover {
-color:#fff;
-text-shadow:none;
-background-color:transparent;
--webkit-box-shadow:none;
--moz-box-shadow:none;
-box-shadow:none;
-}
-
 @media max-width767px{
 body {
 padding-right:0;
@@ -479,6 +478,10 @@ display:block;
 margin-left:auto;
 margin-right:auto;
 }
+
+/*
+ * This looks like junk, but removing it affects the layouts
+ */
 
 .hero .navbar-inner {
 padding-left:0;
@@ -536,23 +539,119 @@ margin-right:0;
 height:0;
 }
 
-#Customheader {
-	position: fixed;
-	top:0px; 
-	margin:auto; 
-	z-index:100000; 
-	width:100%;
-	background:#F0F0F0; 
-	height:50px; 
-	opacity:0.5;
+.headline_2{
+	font-size: 20px;
+	text-align: center;
 }
 
-#Customheader > h3 {
-	text-align:right;
-	margin-right: 30px;
+.block.maps {
+margin-bottom:-6px;
+padding:0;
 }
 
-#Customheader > img {
+.block.maps .map {
+width:100%;
+height:350px;
+}
+
+footer {
+background-color:#222;
+color:#fff;
+padding:30px 0;
+}
+
+footer .brand {
+font-family:vodafone;
+font-size:17px;
+color:#fff;
+text-transform:uppercase;
+letter-spacing:2px;
+margin-top:10px;
+margin-left:0;
+padding:0;
+}
+
+.hero .navbar {
+margin:0 0 15px;
+}
+
+.hero .navbar .brand {
+font-family:vodafone;
+font-size:17px;
+color:#fff;
+text-shadow:none;
+text-transform:uppercase;
+letter-spacing:2px;
+margin-top:10px;
+margin-left:0;
+padding:0;
+}
+
+.hero .navbar .nav {
+float:right;
+display:inline-block;
+}
+
+.hero .navbar .nav li {
+margin-left:15px;
+}
+
+.hero .navbar .nav li a {
+font-family:vodafone;
+font-size:14px;
+line-height:23px;
+color:#888;
+text-shadow:none;
+}
+
+.hero .navbar .nav li a:hover {
+color:#fff;
+text-shadow:none;
+}
+
+.hero .navbar .nav li a.btn-bordered {
+border:2px solid #888;
+background:transparent;
+background-color:transparent;
+background-image:none;
+margin:4px 0;
+padding:4px 10px;
+}
+
+.hero .navbar .nav li a.btn-bordered:hover {
+color:#fff;
+border:2px solid #fff;
+}
+
+.hero .navbar .navbar-inner {
+background:transparent;
+border:none;
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+box-shadow:none;
+filter:none;
+}
+
+.hero div.row:last-of-type,.block div.row:last-of-type,.carousel {
+margin-bottom:0;
+}
+
+.hero .navbar .nav .active a,.hero .navbar .nav .active a:hover {
+color:#fff;
+text-shadow:none;
+background-color:transparent;
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+box-shadow:none;
+}
+.row > #qr{
 	float: left;
-	opacity:1.2;
+	padding-left:300px;
+}
+.row2{
+	
+	padding-left:650px;
+}
+.container > p{
+	padding-left:290px;
 }
