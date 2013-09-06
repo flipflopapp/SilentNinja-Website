@@ -1,12 +1,12 @@
 @font-face {
-font-family:icomoon;
-src:url(tpHCbMLhG80dLWmBz5T6DPyFgWgCxQR2giOjwtVVakr.eot?#iefix) format(embedded-opentype),url(Eq7wALxAWtsfw2qbWlA1PxLPQhMKVmDrcdQXNRIn1lo.woff) format(woff),url(vjldUzp0ifddnBOTiLqMmmOz6jn7ZfcKW7Dxeh5Fcvb.ttf) format(truetype),url(2nyePEkdW5HxMOnEoy07B28FhYxkifnVXAptzCg5m16.svg#icomoon) format(svg);
+font-family:vodafone;
+src: url('../font/vodafone.ttf');
 font-weight:400;
 font-style:normal;
 }
 
 p,li,a {
-font-family:OpenSans,Arial,sans-serif;
+font-family:vodafone;
 -webkit-font-smoothing:antialiased;
 }
 
@@ -17,7 +17,7 @@ line-height:21px;
 }
 
 h1,h2,h3,h4,h5,h6 {
-font-family:OpenSansBold,Arial,sans-serif;
+font-family:vodafone;
 -webkit-font-smoothing:antialiased;
 }
 
@@ -46,6 +46,7 @@ letter-spacing:1px;
 
 .block h1.headline,.block h2.headline,.block h3.headline,.block h4.headline,.block h5.headline,.block h6.headline {
 text-align:center;
+font-size: 32px;
 display:block;
 margin:10px auto;
 }
@@ -58,7 +59,7 @@ margin:0 auto;
 .block p.headline-caption {
 text-align:center;
 display:block;
-font-size:15px;
+font-size:20px;
 line-height:21px;
 color:#3c3c3c;
 margin:10px auto;
@@ -69,6 +70,11 @@ margin-bottom:50px;
 }
 
 .block.alt {
+}
+
+.headline_2{
+	font-size: 20px;
+	text-align: center;
 }
 
 .block.maps {
@@ -88,7 +94,7 @@ padding:30px 0;
 }
 
 footer .brand {
-font-family:OpenSans,Arial,sans-serif;
+font-family:vodafone;
 font-size:17px;
 color:#fff;
 text-transform:uppercase;
@@ -103,7 +109,7 @@ margin:0 0 15px;
 }
 
 .hero .navbar .brand {
-font-family:OpenSans,Arial,sans-serif;
+font-family:vodafone;
 font-size:17px;
 color:#fff;
 text-shadow:none;
@@ -124,7 +130,7 @@ margin-left:15px;
 }
 
 .hero .navbar .nav li a {
-font-family:OpenSansBold,Arial,sans-serif;
+font-family:vodafone;
 font-size:14px;
 line-height:23px;
 color:#888;
@@ -173,8 +179,8 @@ box-shadow:none;
 -webkit-border-radius:1px;
 -moz-border-radius:1px;
 border-radius:1px;
-font-family:OpenSansBold,Arial,sans-serif;
-font-size:15px;
+font-family:vodafone;
+font-size:13px;
 line-height:21px;
 padding:7px 14px;
 }
@@ -291,7 +297,7 @@ padding:0;
 
 .carousel-caption h1,.carousel-caption h2,.carousel-caption h3,.carousel-caption h4,.carousel-caption h5,.carousel-caption h6 {
 text-align:center;
-font-family:OpenSans,Arial,sans-serif;
+font-family:vodafone;
 }
 
 .carousel .item>p,.carousel-caption p {
@@ -303,14 +309,14 @@ text-align:center;
 }
 
 label,input,button,select,textarea {
-font-family:OpenSans,Arial,sans-serif;
-font-size:15px;
+font-family:vodafone;
+font-size:13px;
 line-height:21px;
 }
 
 select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
-font-family:OpenSans,Arial,sans-serif;
-font-size:15px;
+font-family:vodafone;
+font-size:13px;
 color:#3c3c3c;
 -webkit-border-radius:0;
 -moz-border-radius:0;
@@ -319,8 +325,8 @@ height:26px;
 }
 
 input,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],select,textarea {
-font-family:OpenSans,Arial,sans-serif;
-font-size:15px;
+font-family:vodafone;
+font-size:13px;
 -webkit-box-shadow:none;
 -moz-box-shadow:none;
 box-shadow:none;
@@ -336,8 +342,8 @@ border-color:#999;
 }
 
 input,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],input[type=file],textarea,select {
-font-family:OpenSans,Arial,sans-serif;
-font-size:15px;
+font-family:vodafone;
+font-size:13px;
 height:26px;
 margin-bottom:0;
 }
@@ -355,7 +361,7 @@ margin-top:25px;
 }
 
 [data-icon]:before {
-font-family:icomoon;
+font-family:vodafone;
 content:attr(data-icon);
 speak:none;
 font-weight:400;
@@ -366,7 +372,7 @@ line-height:1;
 }
 
 .icon-airplane,.icon-twitter,.icon-facebook,.icon-android,.icon-windows8,.icon-github,.icon-tumblr,.icon-google-plus,.icon-wordpress,.icon-pinterest,.icon-google-drive,.icon-envelope,.icon-apple {
-font-family:icomoon;
+font-family:vodafone;
 speak:none;
 font-style:normal;
 font-weight:400;
