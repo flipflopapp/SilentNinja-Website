@@ -9,6 +9,7 @@
 	    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 	    <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css">
 	    <link rel="stylesheet" href="css/style.css" type="text/css">
+	
 	</head>
 	<body> 
 		<header class="page-header" id="Customheader"><img src="imgs/icon.png"><h3><a>Home</a> &nbsp <a>About</a></h3></header>
@@ -108,11 +109,17 @@ Note 2: We have an Ascending Ringer Volume feature. Disable this feature if you 
 	                    <p>
 	                        <a href="#" class="btn btn-blue rounded">Grab at Google Play</a>
 	                    </p>
-	                    
+	                    <p>
+	                   <!--      <a href="#" class="btn btn-blue rounded">Grab at Google Play</a> -->
+	                       <a class="btn btn-blue rounded" id="loadVideo" data-video-src="http://www.youtube.com/embed/h354cj0033E">Load video</a>
+	                    </p>
 	                    <br/>   
 	                     
 	                </div>   
-	              <iframe width="420" height="315" src="http://www.youtube.com/embed/h354cj0033E" frameborder="0" allowfullscreen></iframe>         
+	                <div class="container">
+      				<iframe id="video" width="560" height="315" src="" frameborder="0" allowfullscreen/>
+   					 </div> 
+	     <!--          <iframe width="420" height="315" src="http://www.youtube.com/embed/h354cj0033E" frameborder="0" allowfullscreen></iframe>   -->       
 	            </div>
 	        </div>
 	    </section>
@@ -147,5 +154,13 @@ Note 2: We have an Ascending Ringer Volume feature. Disable this feature if you 
 	    <script src="Js/jquery-1.8.0.min.js"></script>
 	     <script src="Js/bootstrap.js"></script> 
 	    <script src="Js/main.js"></script>   
+	    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#loadVideo").bind("click", function(){
+          videoUrl = $(this).attr("data-video-src")
+          $("#video").attr("src", videoUrl)
+        });
+      });
+    </script>
 	</body>
 </html>
