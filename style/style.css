@@ -11,7 +11,7 @@ font-family:vodafone;
 }
 
 p,li {
-font-size:15px;
+font-size:18px;
 line-height:21px;
 -webkit-font-smoothing:antialiased;
 }
@@ -301,7 +301,7 @@ font-family:vodafone;
 }
 
 .carousel .item>p,.carousel-caption p {
-font-size:15px;
+font-size:18px;
 line-height:21px;
 text-shadow:none;
 color:#222;
@@ -435,7 +435,7 @@ content:"\e00c";
 }
 
 body {
-font-size:15px;
+font-size:18px;
 }
 
 #hide-image {
