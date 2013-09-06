@@ -11,7 +11,7 @@ font-family:vodafone;
 }
 
 p,li {
-font-size:18px;
+font-size:20px;
 line-height:21px;
 -webkit-font-smoothing:antialiased;
 }
@@ -118,7 +118,7 @@ color:#222;
 -webkit-border-radius:1px;
 -moz-border-radius:1px;
 border-radius:1px;
-font-size:18px;
+font-size:20px;
 padding:15px 24px;
 }
 
@@ -216,7 +216,7 @@ font-family:vodafone;
 }
 
 .carousel .item>p,.carousel-caption p {
-font-size:18px;
+font-size:20px;
 line-height:21px;
 text-shadow:none;
 color:#222;
@@ -350,7 +350,7 @@ content:"\e00c";
 }
 
 body {
-font-size:18px;
+font-size:20px;
 }
 
 #hide-image {
