@@ -95,7 +95,8 @@ box-shadow:none;
 -moz-border-radius:1px;
 border-radius:1px;
 font-family:vodafone;
-font-size:13px;
+font-weight:bold;
+font-size:16px;
 line-height:21px;
 padding:7px 14px;
 }
@@ -225,13 +226,13 @@ text-align:center;
 
 label,input,button,select,textarea {
 font-family:vodafone;
-font-size:13px;
+font-size:16px;
 line-height:21px;
 }
 
 select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input {
 font-family:vodafone;
-font-size:13px;
+font-size:16px;
 color:#3c3c3c;
 -webkit-border-radius:0;
 -moz-border-radius:0;
@@ -241,7 +242,7 @@ height:26px;
 
 input,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],select,textarea {
 font-family:vodafone;
-font-size:13px;
+font-size:16px;
 -webkit-box-shadow:none;
 -moz-box-shadow:none;
 box-shadow:none;
@@ -258,7 +259,7 @@ border-color:#999;
 
 input,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],input[type=file],textarea,select {
 font-family:vodafone;
-font-size:13px;
+font-size:16px;
 height:26px;
 margin-bottom:0;
 }
