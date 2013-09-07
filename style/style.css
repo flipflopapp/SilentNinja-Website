@@ -66,6 +66,7 @@ margin:0 auto;
 
 .block p.headline-caption {
 text-align:center;
+float: left;
 display:block;
 font-size:20px;
 line-height:21px;
