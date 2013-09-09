@@ -45,11 +45,21 @@ header hr {
 	margin:0px
 }
 
+header .tab{
+	color: black;
+}
+
 header .tabs{
 	color: black;
 	padding-right: 2%;
-	 border-right: thick solid #CDD2E0;
-	 border-right-width:1px;
+	border-right: thick solid #CDD2E0;
+	border-right-width:1px;
+}
+
+header .tabsselc{
+	padding-right: 2%;
+	border-right: thick solid #CDD2E0;
+	border-right-width:1px;
 }
 
 .block {
@@ -554,4 +564,9 @@ background-color:transparent;
 -webkit-box-shadow:none;
 -moz-box-shadow:none;
 box-shadow:none;
+}
+
+.faqbox{
+	margin-left: 25%;
+	margin-right: 5%;
 }
