@@ -71,8 +71,11 @@ padding:60px 0;
 }
 
 .block h1,.block h2,.block h3,.block h4,.block h5,.block h6 {
-text-transform:uppercase;
 letter-spacing:1px;
+}
+
+h5{
+font-size: 16px;
 }
 
 .block h1.headline,.block h2.headline,.block h3.headline,.block h4.headline,.block h5.headline,.block h6.headline {
@@ -569,4 +572,7 @@ box-shadow:none;
 .faqbox{
 	margin-left: 25%;
 	margin-right: 5%;
+}
+footer img{
+	float: left;
 }
