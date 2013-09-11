@@ -14,25 +14,29 @@
         <link rel="stylesheet" href="style/style.css" type="text/css">
   </head>
   <body>
-      <header>
+	    <header>
             <h2 class="headline">
                 Silent Ninja
             </h2>
-            <hr>
-        <a class="tabs" href="index.html">Home</a>
-        <a class="tabsselc" href="#">Help</a>
-        <a class="tab" href="aboutus.html">About Us</a>
-      <p style="padding-top:10px;">
-              <a href="https://play.google.com/store/apps/details?id=com.silentninja" class="btn btn-blue rounded">Grab at Google Play</a>
-          </p>  
-        </header>     
+            <div class="tabdiv">
+			    <a class="tabs" href="index.html">Home</a>
+			    <a class="tabsselc" href="#">Help</a>
+                <a class="tab" href="aboutus.html">Credits</a>
+            </div>
+            <p>
+	            <a href="https://play.google.com/store/apps/details?id=com.silentninja" class="btn btn-blue rounded">Grab at Google Play</a>
+	        </p>
+        </header>
         
         <section class="block first">
-          <div class="faqbox">
-            <div class="row">
-                <div class="section_header">
-                <h3>Frequently asked questions</h3>
-            </div>
+           <div class="container">
+              <div class="row">
+                <div class="offset3 span8">
+                    <div class="section_header">
+                        <h3 style="text-align:center;">
+                            FAQ's
+                        </h3>
+                    </div>
                  <!-- Snippet Code -->
                 <div class="accordion" id="accordion1">
                         <!-- Each item should be enclosed inside the class "accordion-group". Note down the below markup. -->
@@ -168,7 +172,6 @@
       <!-- Snipet Code end -->
 
               </div>
-          </div>
         </body>
       <script src="javascript/jquery-1.8.0.min.js"></script>
       <script src="javascript/bootstrap.js"></script>
